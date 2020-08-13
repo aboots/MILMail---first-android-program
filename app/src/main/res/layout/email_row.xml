@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_marginStart="0dp"
+            android:id="@+id/senderInRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EF9B9B"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_gravity="bottom"
+            android:layout_marginStart="20dp"
+            android:id="@+id/imageViewEmail"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/subjectInRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9570D8"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#D6C07E" />
+</LinearLayout>
