@@ -43,7 +43,7 @@ public class sendEmailActivity extends AppCompatActivity {
                         }
                     });
             AlertDialog alert = builder.create();
-            alert.setTitle("send email");
+            alert.setTitle("Send email");
             alert.show();
         } else {
             finalSentProcess(recieverString,subjectString,bodyText);
