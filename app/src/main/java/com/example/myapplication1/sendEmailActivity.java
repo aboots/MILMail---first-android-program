@@ -26,7 +26,6 @@ public class sendEmailActivity extends AppCompatActivity {
         final String subjectString = subject.getText().toString();
         EditText body = findViewById(R.id.emailBody);
         final String bodyText = body.getText().toString();
-        Log.d("subject", "I am hereS" + subjectString);
         if (subjectString.equals("")) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setMessage("your subject is empty.are you sure to send his email?")
